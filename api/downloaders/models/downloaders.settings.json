@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Downloaders",
+  "info": {
+    "name": "Downloaders",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "migrated": {
+      "type": "boolean"
+    }
+  }
+}
